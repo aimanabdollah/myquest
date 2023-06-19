@@ -1,0 +1,289 @@
+{
+  "questions": [
+    {
+      "image": "https://www.worldtimeserver.com/images/maps/MY.jpg",
+      "questionText": "What is the time zone in Malaysia?",
+      "options": [
+        {
+          "text": "GMT +5"
+        },
+        {
+          "text": "GMT +6"
+        },
+        {
+          "text": "GMT +7"
+        },
+        {
+          "text": "GMT +8",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "image": "https://media.istockphoto.com/id/1413662153/photo/red-hibiscus-or-popularly-known-as-bunga-raya-in-malaysia-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=SR91zzNbKR_eeNHk63-JjmrRYQVRHFFP7ZGE_ZFtDXA=",
+      "questionText": "What is the national flower of Malaysia?",
+      "options": [
+        {
+          "text": "Rose"
+        },
+        {
+          "text": "Sunflower"
+        },
+        {
+          "text": "Hibiscus",
+          "correct": true
+        },
+        {
+          "text": "Orchid"
+        }
+      ]
+    },
+    {
+      "image": "https://ychef.files.bbci.co.uk/1280x720/p09tlvbr.jpg",
+      "questionText": "What is the administrative and judicial capital of Malaysia?",
+      "options": [
+        {
+          "text": "Penang"
+        },
+        {
+          "text": "Putrajaya",
+          "correct": true
+        },
+        {
+          "text": "Kuala Lumpur"
+        },
+        {
+          "text": "Johor Bahru"
+        }
+      ]
+    },
+    {
+      "image": "https://pari.or.id/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-01-at-09.06.30.jpeg",
+      "questionText": "Based on hierarchy of courts in Malaysia, the highest court in Malaysia is known as",
+      "options": [
+        {
+          "text": "High Court"
+        },
+        {
+          "text": "Federal Court",
+          "correct": true
+        },
+        {
+          "text": "Syariah Court"
+        },
+        {
+          "text": "Sessions Court"
+        }
+      ]
+    },
+    {
+      "image": "https://www.manorfx.com/app/uploads/2019/04/current-malaysian-ringgit-banknotes.jpg",
+      "questionText": "What is the currency of Malaysia?",
+      "options": [
+        {
+          "text": "Ringgit",
+          "correct": true
+        },
+        {
+          "text": "Rupiah"
+        },
+        {
+          "text": "Baht"
+        },
+        {
+          "text": "Yen"
+        }
+      ]
+    },
+    {
+      "image": "https://www.emedia.com.my/wp-content/uploads/2023/02/Untitled-9QrU6wtC6-transformed.jpeg",
+      "questionText": "What is the tallest mountain in Malaysia?",
+      "options": [
+        {
+          "text": "Mount Tahan"
+        },
+        {
+          "text": "Mount Murud"
+        },
+        {
+          "text": "Mount Santubong"
+        },
+        {
+          "text": "Mount Kinabalu",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Tun_Hussein_Onn_%28MY_3rd_PM%29.jpg/180px-Tun_Hussein_Onn_%28MY_3rd_PM%29.jpg",
+      "questionText": "Who is the third Prime Minister of Malaysia?",
+      "options": [
+        {
+          "text": "Tunku Abdul Rahman"
+        },
+        {
+          "text": "Hussein Onn",
+          "correct": true
+        },
+        {
+          "text": "Tun Abdul Razak"
+        },
+        {
+          "text": "Abdullah Ahmad Badawi"
+        }
+      ]
+    },
+    {
+      "image": "https://www.unreservedmedia.com/wp-content/uploads/2020/09/petronas-twin-towers-AFP-800x533.jpg",
+      "questionText": "Which iconic landmark is located in Kuala Lumpur, Malaysia?",
+      "options": [
+        {
+          "text": "PETRONAS Twin Tower",
+          "correct": true
+        },
+        {
+          "text": "Taj Mahal"
+        },
+        {
+          "text": "Eiffel Tower"
+        },
+        {
+          "text": "Statue of Liberty"
+        }
+      ]
+    },
+    {
+      "image": "https://www.elmundoeats.com/wp-content/uploads/2021/02/FP-Nasi-lemak-with-all-its-trimmings.jpg",
+      "questionText": "What is the national dish of Malaysia?",
+      "options": [
+        {
+          "text": "Nasi Lemak",
+          "correct": true
+        },
+        {
+          "text": "Roti Canai"
+        },
+        {
+          "text": "Laksa"
+        },
+        {
+          "text": "Nasi Ayam"
+        }
+      ]
+    },
+    {
+      "image": "https://2.bp.blogspot.com/-L_6FaG3Amz0/W3ljDy2bXtI/AAAAAAAAHs8/c6JPboHrcUYhTFkszWY2KhrSmlN9wDviwCLcBGAs/s1600-e60/Bendera%2BMalaysia%2BJalur%2BGemilang.jpg",
+      "questionText": "What is the national flag of Malaysia?",
+      "options": [
+        {
+          "text": "Singa Malaya"
+        },
+        {
+          "text": "Bunga Raya"
+        },
+        {
+          "text": "Jalur Gemilang",
+          "correct": true
+        },
+        {
+          "text": "Tanah Melayu"
+        }
+      ]
+    },
+    {
+      "image": "https://web.colby.edu/ragastal/files/2021/10/Rajang_Aerials_008-1024x681.jpg",
+      "questionText": "Which is the longest river in Malaysia?",
+      "options": [
+        {
+          "text": "Rajang River",
+          "correct": true
+        },
+        {
+          "text": "Pahang River"
+        },
+        {
+          "text": "Perak River"
+        },
+        {
+          "text": "Klang River"
+        }
+      ]
+    },
+    {
+      "image": "https://omnilogistics.com/wp-content/uploads/2021/08/Penang-Malaysia.jpg",
+      "questionText": "Which city is known as the 'Pearl of the Orient' in Malaysia?",
+      "options": [
+        {
+          "text": "Penang",
+          "correct": true
+        },
+        {
+          "text": "Kuching"
+        },
+        {
+          "text": "Langkawi"
+        },
+        {
+          "text": "Kota Kinabalu"
+        }
+      ]
+    },
+    {
+      "image": "https://seasia.wisc.edu/wp-content/uploads/sites/1794/2020/08/se-asia.jpg",
+      "questionText": "In which specific part of the world is Malaysia?",
+      "options": [
+        {
+          "text": "South West Asia"
+        },
+        {
+          "text": "West Europe"
+        },
+        {
+          "text": "Southest Asia",
+          "correct": true
+        },
+        {
+          "text": "North Africa"
+        }
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Coat_of_arms_of_the_Federation_of_Malaya.svg/1200px-Coat_of_arms_of_the_Federation_of_Malaya.svg.png",
+      "questionText": "The Malayan Union was replaced by what?",
+      "options": [
+        {
+          "text": "Federation Of The Union"
+        },
+        {
+          "text": "Federation Of United"
+        },
+        {
+          "text": "Federation Of Malaya",
+          "correct": true
+        },
+        {
+          "text": "Federation Of The Malayan People"
+        }
+      ]
+    },
+    {
+      "image": "https://i0.wp.com/1.bp.blogspot.com./-R7Lehz7kGhw/X0i11izmUTI/AAAAAAAAS40/AEuzRohDwJEPCDx5Jh2be47GjBKssTAEACLcBGAsYHQ/s1600/bendera2.jpg",
+      "questionText": "What is the national anthem of Malaysia?",
+      "options": [
+        {
+          "text": "Malaysiaku"
+        },
+        {
+          "text": "Tanah Airku"
+        },
+        {
+          "text": "Negaraku",
+          "correct": true
+        },
+        {
+          "text": "Jalur Gemilang"
+        }
+      ]
+    }
+  ]
+}

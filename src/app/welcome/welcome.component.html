@@ -1,0 +1,31 @@
+<div class="container bg-light py-3 mt-2">
+  <h3 class="display-5 fw-bold">
+    Welcome to MYQuest: Malaysian Chronicles Quiz
+  </h3>
+  <img
+    src="https://img.freepik.com/premium-vector/malaysia-famous-landmarks-background_135170-4.jpg"
+    style="width: 25%"
+  />
+  <p class="col-md-8 fs-4">This quiz contains 15 questions</p>
+
+  <h4>Please alert:</h4>
+  <ol>
+    <li><b>Total points:</b> 150</li>
+    <li><b>To pass:</b> Score 70 points and above</li>
+    <!-- <li><b>Time limit:</b> 60 seconds per question</li> -->
+
+    <li>Refereshing the page will reset the quiz</li>
+  </ol>
+  <hr />
+  <div class="name col-md-4 my-3">
+    <!-- <label for="">Enter your name:</label>
+    <input #name type="text" class="form-control" placeholder="" /><br /> -->
+    <button
+      class="btn btn-success btn-lg"
+      routerLink="/question"
+      (click)="startQuiz()"
+    >
+      Let's get started !
+    </button>
+  </div>
+</div>
