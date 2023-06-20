@@ -25,6 +25,7 @@
           <h5>{{ questionList[currentQuestion]?.questionText }}</h5>
           <img
             src="{{ questionList[currentQuestion]?.image }}"
+            ng-lazyload
             style="width: 250px; height: 150px"
           />
         </div>
