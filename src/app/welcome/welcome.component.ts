@@ -10,7 +10,7 @@ export class WelcomeComponent {
   constructor() {}
 
   startQuiz() {
-    alert(` Don't refresh the page, until you complete this quiz`);
+    alert(` Remember, don't refresh the page, until you complete this quiz`);
     localStorage.setItem('name', this.nameKey.nativeElement.value);
   }
 }

@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "image": "https://www.worldtimeserver.com/images/maps/MY.jpg",
+      "image": "assets/Q1.jpg",
       "questionText": "What is the time zone in Malaysia?",
       "options": [
         {
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "image": "https://media.istockphoto.com/id/1413662153/photo/red-hibiscus-or-popularly-known-as-bunga-raya-in-malaysia-isolated-on-a-white-background.jpg?s=612x612&w=0&k=20&c=SR91zzNbKR_eeNHk63-JjmrRYQVRHFFP7ZGE_ZFtDXA=",
+      "image": "assets/Q2.jpg",
       "questionText": "What is the national flower of Malaysia?",
       "options": [
         {
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "image": "https://ychef.files.bbci.co.uk/1280x720/p09tlvbr.jpg",
+      "image": "assets/Q3.jpg",
       "questionText": "What is the administrative and judicial capital of Malaysia?",
       "options": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "image": "https://pari.or.id/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-01-at-09.06.30.jpeg",
+      "image": "assets/Q4.jpeg",
       "questionText": "Based on hierarchy of courts in Malaysia, the highest court in Malaysia is known as",
       "options": [
         {
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "image": "https://www.manorfx.com/app/uploads/2019/04/current-malaysian-ringgit-banknotes.jpg",
+      "image": "assets/Q5.jpg",
       "questionText": "What is the currency of Malaysia?",
       "options": [
         {
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "image": "https://www.emedia.com.my/wp-content/uploads/2023/02/Untitled-9QrU6wtC6-transformed.jpeg",
+      "image": "assets/Q6.jpeg",
       "questionText": "What is the tallest mountain in Malaysia?",
       "options": [
         {
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Tun_Hussein_Onn_%28MY_3rd_PM%29.jpg/180px-Tun_Hussein_Onn_%28MY_3rd_PM%29.jpg",
+      "image": "assets/Q7.jpg",
       "questionText": "Who is the third Prime Minister of Malaysia?",
       "options": [
         {
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "image": "https://www.unreservedmedia.com/wp-content/uploads/2020/09/petronas-twin-towers-AFP-800x533.jpg",
+      "image": "assets/Q8.jpg",
       "questionText": "Which iconic landmark is located in Kuala Lumpur, Malaysia?",
       "options": [
         {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "image": "https://www.elmundoeats.com/wp-content/uploads/2021/02/FP-Nasi-lemak-with-all-its-trimmings.jpg",
+      "image": "assets/Q9.jpg",
       "questionText": "What is the national dish of Malaysia?",
       "options": [
         {
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "image": "https://2.bp.blogspot.com/-L_6FaG3Amz0/W3ljDy2bXtI/AAAAAAAAHs8/c6JPboHrcUYhTFkszWY2KhrSmlN9wDviwCLcBGAs/s1600-e60/Bendera%2BMalaysia%2BJalur%2BGemilang.jpg",
+      "image": "assets/Q10.jpg",
       "questionText": "What is the national flag of Malaysia?",
       "options": [
         {
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "image": "https://web.colby.edu/ragastal/files/2021/10/Rajang_Aerials_008-1024x681.jpg",
+      "image": "assets/Q11.webp",
       "questionText": "Which is the longest river in Malaysia?",
       "options": [
         {
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "image": "https://omnilogistics.com/wp-content/uploads/2021/08/Penang-Malaysia.jpg",
+      "image": "assets/Q12.jpg",
       "questionText": "Which city is known as the 'Pearl of the Orient' in Malaysia?",
       "options": [
         {
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "image": "https://seasia.wisc.edu/wp-content/uploads/sites/1794/2020/08/se-asia.jpg",
+      "image": "assets/Q13.jpg",
       "questionText": "In which specific part of the world is Malaysia?",
       "options": [
         {
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Coat_of_arms_of_the_Federation_of_Malaya.svg/1200px-Coat_of_arms_of_the_Federation_of_Malaya.svg.png",
+      "image": "assets/Q14.png",
       "questionText": "The Malayan Union was replaced by what?",
       "options": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "image": "https://i0.wp.com/1.bp.blogspot.com./-R7Lehz7kGhw/X0i11izmUTI/AAAAAAAAS40/AEuzRohDwJEPCDx5Jh2be47GjBKssTAEACLcBGAsYHQ/s1600/bendera2.jpg",
+      "image": "assets/Q15.jpg",
       "questionText": "What is the national anthem of Malaysia?",
       "options": [
         {
