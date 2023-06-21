@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "image": "assets/Q1.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q1.jpg",
       "questionText": "What is the time zone in Malaysia?",
       "options": [
         {
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "image": "assets/Q2.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q2.jpg",
       "questionText": "What is the national flower of Malaysia?",
       "options": [
         {
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "image": "assets/Q3.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q3.jpg",
       "questionText": "What is the administrative and judicial capital of Malaysia?",
       "options": [
         {
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "image": "assets/Q4.jpeg",
+      "image": "https://myquest.blob.core.windows.net/img/Q4.jpeg",
       "questionText": "Based on hierarchy of courts in Malaysia, the highest court in Malaysia is known as",
       "options": [
         {
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "image": "assets/Q5.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q5.jpg",
       "questionText": "What is the currency of Malaysia?",
       "options": [
         {
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "image": "assets/Q6.jpeg",
+      "image": "https://myquest.blob.core.windows.net/img/Q6.jpeg",
       "questionText": "What is the tallest mountain in Malaysia?",
       "options": [
         {
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "image": "assets/Q7.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q7.jpg",
       "questionText": "Who is the third Prime Minister of Malaysia?",
       "options": [
         {
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "image": "assets/Q8.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q8.jpg",
       "questionText": "Which iconic landmark is located in Kuala Lumpur, Malaysia?",
       "options": [
         {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "image": "assets/Q9.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q9.jpg",
       "questionText": "What is the national dish of Malaysia?",
       "options": [
         {
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "image": "assets/Q10.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q10.jpg",
       "questionText": "What is the national flag of Malaysia?",
       "options": [
         {
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "image": "assets/Q11.webp",
+      "image": "https://myquest.blob.core.windows.net/img/Q11.webp",
       "questionText": "Which is the longest river in Malaysia?",
       "options": [
         {
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "image": "assets/Q12.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q12.jpg",
       "questionText": "Which city is known as the 'Pearl of the Orient' in Malaysia?",
       "options": [
         {
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "image": "assets/Q13.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q13.jpg",
       "questionText": "In which specific part of the world is Malaysia?",
       "options": [
         {
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "image": "assets/Q14.png",
+      "image": "https://myquest.blob.core.windows.net/img/Q14.png",
       "questionText": "The Malayan Union was replaced by what?",
       "options": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "image": "assets/Q15.jpg",
+      "image": "https://myquest.blob.core.windows.net/img/Q15.jpg",
       "questionText": "What is the national anthem of Malaysia?",
       "options": [
         {
