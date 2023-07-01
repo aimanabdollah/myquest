@@ -1,4 +1,5 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
@@ -6,11 +7,11 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
   styleUrls: ['./welcome.component.css'],
 })
 export class WelcomeComponent {
-  @ViewChild('name') nameKey!: ElementRef;
-  constructor() {}
+  constructor(private router: Router) {}
 
   startQuiz() {
-    alert(` Remember, don't refresh the page, until you complete this quiz`);
-    localStorage.setItem('name', this.nameKey.nativeElement.value);
+    alert(`Remember, don't refresh the page until you complete this quiz.`);
+    // Navigate to the quiz page or perform any other actions
+    this.router.navigateByUrl('/question');
   }
 }

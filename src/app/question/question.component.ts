@@ -5,87 +5,103 @@ import { QuestionserviceService } from '../service/questionservice.service';
 @Component({
   selector: 'app-question',
   templateUrl: './question.component.html',
-  styleUrls: ['./question.component.css']
+  styleUrls: ['./question.component.css'],
 })
-export class QuestionComponent implements OnInit{
-
-  public name: string="";
-  public questionList:any=[];
-  public currentQuestion: number=0;
-  public points : number=0;
-  public counter=60;
-  public correctAnswer:number =0;
-  public incorrectAns:number=0;
-  public interval$:any;
-  public quizCompleted: boolean=false;
+export class QuestionComponent implements OnInit {
+  public questionList: any = [];
+  public currentQuestion: number = 0;
+  public points: number = 0;
+  public counter = 60;
+  public correctAnswer: number = 0;
+  public incorrectAns: number = 0;
+  public interval$: any;
+  public quizCompleted: boolean = false;
   public status: string;
-  constructor(private service : QuestionserviceService){}
+
+  constructor(private service: QuestionserviceService) {}
 
   ngOnInit(): void {
-    this.name=localStorage.getItem("name")!;
     this.getallQuestions();
     this.startCounter();
   }
 
-  getallQuestions(){
-     this.service.getJson()
-     .subscribe(res=>{
-       this.questionList=res.questions;
-      });
+  getallQuestions() {
+    this.service.getJson().subscribe((res) => {
+      this.questionList = { questions: res };
+      //console.log(this.questionList);
+    });
   }
 
-  nextQuestion(){
-    this.currentQuestion++;
+  nextQuestion() {
+    if (this.currentQuestion < this.questionList.questions.length - 1) {
+      this.currentQuestion++;
+    } else if (
+      this.currentQuestion ===
+      this.questionList.questions.length - 1
+    ) {
+      this.finishQuiz();
+    }
   }
 
-  previousQuestion(){
+  previousQuestion() {
     this.currentQuestion--;
   }
 
-  checkAnswer(cq:number, opt:any){
+  selectedOption: any;
 
-    if(cq===this.questionList.length){
-      this.quizCompleted=true;
-      this.stopCounter();
-    }
-    if(this.points>=70){
-      this.status="PASS"
-    }else{
-      this.status="FAIL"
-    }
-    if(opt.correct){
-      this.points+=10;
+  checkAnswer(option: any) {
+    this.selectedOption = option;
+    const question = this.questionList.questions[this.currentQuestion];
+
+    if (option.correct) {
+      this.points += 1;
       this.correctAnswer++;
-      this.currentQuestion++;
-    }else{
+    } else {
       this.incorrectAns++;
+    }
+
+    if (this.currentQuestion === this.questionList.questions.length - 1) {
+      this.finishQuiz();
+    } else {
       this.currentQuestion++;
     }
   }
 
-  startCounter(){
-    this.interval$=interval(1000).subscribe(x=>{
+  finishQuiz() {
+    this.quizCompleted = true;
+
+    const totalQuestions = this.questionList.questions.length;
+    const correctPercentage = Math.round((this.points / totalQuestions) * 100);
+    this.points = Math.round((this.points / totalQuestions) * 100);
+
+    if (correctPercentage >= 75) {
+      this.status = 'PASS';
+    } else {
+      this.status = 'FAIL';
+    }
+  }
+
+  startCounter() {
+    this.interval$ = interval(1000).subscribe((x) => {
       this.counter--;
-      if(this.counter===0){
+      if (this.counter === 0) {
         this.currentQuestion++;
-        this.counter=60;
+        this.counter = 60;
       }
     });
-    setTimeout(()=>{
-      this.interval$.unsubscribe()
-    },600000);
-    
+    setTimeout(() => {
+      this.interval$.unsubscribe();
+    }, 600000);
   }
 
-  stopCounter(){
+  stopCounter() {
     this.interval$.unsubscribe();
-    this.counter=0;
+    this.counter = 0;
   }
 
-  resetCounter(){
+  resetCounter() {
     this.stopCounter();
-    this.counter=0;
+    this.counter = 0;
     this.startCounter();
   }
-
 }
