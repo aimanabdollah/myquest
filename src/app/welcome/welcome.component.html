@@ -1,11 +1,4 @@
 <div class="container bg-light py-3 mt-2 border rounded">
-  <!-- <div style="display: flex; justify-content: center">
-    <video width="460" height="275" controls autoplay loop>
-      <source src="assets/video.mp4" type="video/mp4" />
-    </video>
-    <p>Video source: assets/video.mp4</p>
-  </div> -->
-
   <div
     style="
       display: flex;
@@ -31,7 +24,6 @@
       <a href="https://www.youtube.com/watch?v=uZ3tB1UO1hM">[Youtube Video]</a>
     </p>
   </div>
-  <!-- <p class="col-md-8 fs-4">This quiz contains 15 questions</p> -->
 
   <h4>Attention, quiz-takers !</h4>
   <ol>
@@ -40,7 +32,8 @@
       <b>Malaysia's culture, history</b> and <b>facts</b>
     </li>
     <li>
-      There are a total of <b>15 questions</b>, please
+      There are a total of
+      <b> {{ questionList?.questions?.length }} questions</b>, please
       <b>answer all questions</b>
     </li>
     <li>To pass the quiz, you must score at least <b>75%</b></li>

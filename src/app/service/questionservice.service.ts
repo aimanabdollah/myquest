@@ -15,6 +15,7 @@ export class QuestionserviceService {
   getJson() {
     return this.http.get<any>(
       'https://myquestapi.azurewebsites.net/api/MyQuest'
+      //'https://localhost:7162/api/MyQuest'
     );
   }
 }

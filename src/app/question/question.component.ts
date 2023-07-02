@@ -22,7 +22,6 @@ export class QuestionComponent implements OnInit {
 
   ngOnInit(): void {
     this.getallQuestions();
-    this.startCounter();
   }
 
   getallQuestions() {
@@ -30,6 +29,10 @@ export class QuestionComponent implements OnInit {
       this.questionList = { questions: res };
       //console.log(this.questionList);
     });
+  }
+
+  getOptionLabel(index: number): string {
+    return String.fromCharCode(65 + index); // Convert index to corresponding alphabet (A, B, C, ...)
   }
 
   nextQuestion() {
@@ -63,7 +66,9 @@ export class QuestionComponent implements OnInit {
     if (this.currentQuestion === this.questionList.questions.length - 1) {
       this.finishQuiz();
     } else {
-      this.currentQuestion++;
+      setTimeout(() => {
+        this.currentQuestion++;
+      }, 200); // Delay of 0.5 seconds
     }
   }
 
@@ -79,29 +84,5 @@ export class QuestionComponent implements OnInit {
     } else {
       this.status = 'FAIL';
     }
-  }
-
-  startCounter() {
-    this.interval$ = interval(1000).subscribe((x) => {
-      this.counter--;
-      if (this.counter === 0) {
-        this.currentQuestion++;
-        this.counter = 60;
-      }
-    });
-    setTimeout(() => {
-      this.interval$.unsubscribe();
-    }, 600000);
-  }
-
-  stopCounter() {
-    this.interval$.unsubscribe();
-    this.counter = 0;
-  }
-
-  resetCounter() {
-    this.stopCounter();
-    this.counter = 0;
-    this.startCounter();
   }
 }
