@@ -25,3 +25,11 @@ This repository contains the frontend code for the MyQuest application, which is
 <pre><code class="language-shell">ng serve</code></pre>
 
 <p>The application will be served at <code>http://localhost:4200/</code>. Open this URL in your web browser to access the application.</p>
+
+<table>
+  <tr>
+    <td><img src="src/assets/ui1.png"></td>
+    <td><img src="src/assets/ui2.png"></td>
+  </tr>
+ </table>
+
